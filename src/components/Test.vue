@@ -33,9 +33,9 @@ export default{
   },
   //创建阶段的第一个生命周期函数
   beforeCreate(){
-    //console.log(this.info)
-    //console.log(this.message)
-    //this.show()
+    console.log(this.info)
+    console.log(this.message)
+    this.show()
 
   },
   created() {
