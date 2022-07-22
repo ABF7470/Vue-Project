@@ -8,6 +8,7 @@ Vue.component('MyCount', Count)
 Vue.config.productionTip = false
 
 new Vue({
+  // el:'#app',
   // render 函数中，渲染的是哪个 .vue 组件，那么这个组件就叫做 “根组件”
   render: h => h(App)
 }).$mount('#app')
